@@ -36,7 +36,7 @@ const TitleAndDescription: React.FC<TitleAndDescriptionProps> = ({ data }) => {
   );
 };
 
-const Header: React.FC<unknown> = () => {
+const Header: React.FC = () => {
   return (
     <StaticQuery
       query={graphql`
