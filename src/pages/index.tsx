@@ -32,6 +32,14 @@ const Layout: React.FC<LayoutProps> = ({ data }): ReactElement => {
           alignItems: 'center',
         }}
       >
+        <Link
+          style={{
+            marginBottom: '2rem',
+          }}
+          to={'tags'}
+        >
+          View all tags
+        </Link>
         {edges.map((edge) => {
           const { frontmatter } = edge.node;
           return (

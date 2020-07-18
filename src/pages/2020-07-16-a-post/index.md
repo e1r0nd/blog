@@ -1,9 +1,9 @@
 ---
-path: "/a-post"
-date: "2020-07-16"
-title: "The number three"
-tags: ["that"]
-excerpt: "A preview of my the last one post"
+path: '/a-post'
+date: '2020-07-16'
+title: 'The number three'
+tags: ['that', 'other']
+excerpt: 'A preview of my the last one post'
 ---
 
 Lorem ipsum dolar est.
